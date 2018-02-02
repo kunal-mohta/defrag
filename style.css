@@ -1,0 +1,107 @@
+body, html{
+	margin:0;
+	height:100vh;
+	overflow:hidden;
+}
+
+body{
+	display:block;
+	background: url('img/defrag.svg');
+	background-size:cover;
+}
+
+::-webkit-scrollbar{
+	display:none;
+}
+
+::-moz-scrollbar{
+	display:none;
+}
+
+@font-face{
+	font-family: 'tccm';
+	src:url('fonts/TCCM____.TTF') format('truetype');
+}
+
+@font-face{
+	font-family: 'bebas';
+	src:url('fonts/BebasNeue.otf') format('opentype');
+}
+
+.wrapper{
+	height:100%;
+}
+
+.nav{
+	height:15vh;
+	width:100vw;
+}
+
+.logo{
+	float:right;
+	height:100%;
+}
+
+.logo img{
+	height:38%;
+	padding:2vh 2vh 0 0;
+}
+
+
+.home-body{
+	position:absolute;
+	top:15vh;
+	left:0vw;
+	height:63vh;
+	width:100vw;
+	transition:left 0.3s linear;
+	text-align:center;
+}
+
+.content{
+	margin:0 5vw 0 5vw;
+	text-align:center;
+	font-family: 'tccm';
+	font-size: 5vh;
+	color:#fff;
+	overflow-y: scroll;
+}
+
+.title{
+	font-family: 'bebas';
+	font-size:10vh;
+	color:#ffffff;
+	line-height: 10vh;
+}
+
+
+@media all and (min-width:800px){
+	
+	.nav{
+		width:100vw;
+	}
+
+	.logo{
+		float:left;
+		height:15vh;
+		margin-left:2vw;
+	}
+
+	.logo img{
+		height:45%;
+		padding:3vh 1vh 0 1vh;
+	}
+	
+	.home-body{
+		height:65vh;
+		width:100vw;
+	}
+
+	.title{
+		font-family: 'bebas';
+		font-size:15vh;
+		color:#ffffff;
+		line-height: 14vh;
+	}
+
+}
