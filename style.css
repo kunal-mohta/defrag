@@ -1,7 +1,7 @@
 body, html{
 	margin:0;
-	height:100vh;
-	overflow:hidden;
+	height:100%;
+	overflow:scroll;
 }
 
 body{
@@ -44,7 +44,7 @@ body{
 
 .logo img{
 	height:38%;
-	padding:2vh 2vh 0 0;
+	padding:3vh 2vh 0 0;
 }
 
 
@@ -64,17 +64,30 @@ body{
 	font-family: 'tccm';
 	font-size: 5.5vh;
 	color:#fff;
-	overflow-y: scroll;
+	overflow: scroll;
 	padding-bottom: 10vh;
 }
 
 .title{
+	margin: 7vh 0 5vh 0;
 	font-family: 'bebas';
 	font-size:10vh;
 	color:#ffffff;
 	line-height: 10vh;
 }
 
+.nav-opt{
+	display:block;
+	height:100%;
+	width:40%;
+	float:left;
+	font-family: 'bebas';
+	text-align: center;
+	font-size: 6vh;
+	line-height: 200%;
+	color:#ffffff;
+	transition:font-size 0.1s linear;
+}
 
 @media all and (min-width:800px){
 	
@@ -90,7 +103,7 @@ body{
 
 	.logo img{
 		height:45%;
-		padding:3vh 1vh 0 1vh;
+		padding:4vh 1vh 0 1vh;
 	}
 	
 	.home-body{
@@ -106,6 +119,18 @@ body{
 	}
 	
 	.content{
-		font-size: 6.5vh;
+		font-size: 5.5vh;
+	}
+
+	.nav-opt{
+		width:20%;
+		float:right;
+		font-size: 6vh;
+		line-height: 250%;
+	}
+
+	.nav-opt:hover{
+		cursor:pointer;
+		font-size:6.5vh;
 	}
 }
