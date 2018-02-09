@@ -164,7 +164,7 @@ body{
 	top:7vh;
 	height: 60vh;
 	width: 80vw;
-    background-image: linear-gradient(19deg,#f96d00 0%,#23033c 100%);
+    background-image: linear-gradient(19deg,#006056 0%,#23033c 100%);
     box-shadow: rgba(0,0,0,0.35) 10px 10px 40px;
     overflow:scroll;
 }
@@ -321,7 +321,7 @@ body{
 		position: absolute;
 		top:11vh;
 		left:30vw;
-	    background-image: linear-gradient(19deg,#f96d00 0%,#23033c 100%);
+	    background-image: linear-gradient(19deg,#006056 0%,#23033c 100%);
 	}
 		
 	.company-name{
