@@ -490,8 +490,8 @@ document.getElementsByClassName("problem-body")[0].addEventListener("mousewheel"
 	}
 });
 
-document.getElementsByClassName("up-arrow")[0].addEventListener("click", nextCompany);
-document.getElementsByClassName("down-arrow")[0].addEventListener("click", prevCompany);
+document.getElementsByClassName("up-arrow")[0].addEventListener("click", prevCompany);
+document.getElementsByClassName("down-arrow")[0].addEventListener("click", nextCompany);
 
 
 // document.getElementById("mail").addEventListener("keyup", function(){//validating leader's email
