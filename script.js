@@ -89,7 +89,7 @@ function speakersClick(){
 //}
 
 function aboutClick(){
-	document.body.style.overflow = 'scroll';
+	document.body.style.overflowY = 'scroll';
 
 	// document.getElementsByClassName("contact-body")[0].style.left = "100vw";
 	// document.getElementsByClassName("rules-body")[0].style.left = "100vw";
