@@ -202,15 +202,15 @@ body{
 	font-family: 'tccm';
 	color:#ffffff;
 	text-align: left;
-	padding-bottom:24vh;
+	padding-bottom:29vh;
 }
 
 .company-logo{
-	min-height: 20vh;
-	width: 60vw;
+	height: 55vw;
+	width: 55vw;
     position: absolute;
-    top:45vh;
-    left:35vw;
+    top:40vh;
+    left:38vw;
     background: #ffffff;
     box-shadow: rgba(0,0,0,0.35) 10px 10px 40px;
     display:flex;
@@ -220,7 +220,7 @@ body{
 }
 
 .company-logo img{
-	height:27vh;
+	height: 55vw;
 }
 
 .down-arrow{
@@ -340,11 +340,12 @@ body{
 		width:26vw;
 		margin:2vh 0 10vh 6vw;
 		font-size: 3.3vh;
+		padding-bottom: 0;
 	}
 
 	.company-logo{
-		min-height: 30vh;
-		width: 30vw;
+		height: 30vh;
+		width: 22vw;
 	    position: absolute;
 	    top:40vh;
 	    left:65vw;
@@ -352,7 +353,7 @@ body{
 	}
 
 	.company-logo img{
-		width:20vw;
+		width:22vw;
 	}
 	
 	.up-arrow{
